@@ -1,0 +1,17 @@
+{
+  "name": "gold-wave",
+  "version": "3.0.0",
+  "description": "Gold Wave — browser-based multiplayer top-down shooter. Socket.IO server (Railway deploy).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
